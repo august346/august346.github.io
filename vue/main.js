@@ -32,12 +32,12 @@ var app = new Vue({
       position: "software engineer",
       description:"Quite often we hear people saying \"Nobody is perfect\", which is absolutely correct.<br/>But it is also true that nobody can stop you from making every effort to <strong>break this stereotype</strong>.",
       infoSet: [
-        {title: "Name", text: "Ilya Ivanov"},
-        {title: "Age", text: Math.abs(new Date().getFullYear() - 1993)},
-        {title: "Phone", text: "+7 985 526 1922"},
-        {title: "Email", text: "ivilvad@gmail.com"},
-        {title: "Skype", text: "dest716"},
-        {title: "Telegram", text: "@ku113p"}
+        {title: "Python", text: "aiohttp, Django, Flask"},
+        {title: "Container", text: "Docker, docker-compose"},
+        {title: "Front end", text: "Vue.js, JS, JQuery, Bootstrap"},
+        {title: "DB", text: "PostgreSQL, MongoDB, MySQL"},
+        {title: "MQ", text: "RabbitMQ, Kafka"},
+        {title: "Other", text: "redis"}
       ],
       skills: [
         {name: "back end", percent: 99},
@@ -162,25 +162,21 @@ var app = new Vue({
       {
         class: "linkedin",
         icon: "fa-linkedin",
-        intro: "Find",
         link: "https://www.linkedin.com/in/илья-иванов-a9b6b814b"
       },
       {
         class: "whatsapp",
         icon: "fa-whatsapp",
-        intro: "Chat",
         link: "https://wa.me/qr/2BBLGWN6LOX5P1"
       },
       {
         class: "telegram",
         icon: "fa-telegram",
-        intro: "Message",
         link: "https://t.me/ku113p"
       },
       {
         class: "facebook",
         icon: "fa-facebook",
-        intro: "Follow",
         link: "https://www.facebook.com/ijohnnysmith"
       },
     ]

@@ -133,18 +133,30 @@ https://templatemo.com/tm-464-ultra-profile
 	<section id="resume" class="tm-padding-top-bottom-100">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-sm-6">
-					<h2 class="title">My <strong>Profile</strong></h2>
+				<div class="col-md-12 text-center">
+					<h2><strong>my</strong></h2>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<h2 class="title text-center"><strong>Stack</strong></h2>
 					<p v-for="param in self.infoSet">
 						<span class="tm-info-label">{{ param.title }}</span>
 						{{ param.text }}
 					</p>
 				</div>
-				<div class="col-md-6 col-sm-6">
-					<h2 class="title"><strong>Some</strong> Skills</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+				<div class="col-md-4 col-sm-6">
+					<h2 class="title text-center"><strong>Rules</strong></h2>
+					<ul>
+						<li>Each line of code I do is optimised for maximum impact and conciseness.</li>
+						<li>My promise of service begins right at the consultation phase</li>
+						<li>I believe in being honest and giving the best quality of work to my customers.</li>
+						<li>I aim to provide my customers with the best quality of service with a market-oriented approach to achieve their business goals.</li>
+						<li>Principles of coding - <a href="https://www.python.org/dev/peps/pep-0020/#the-zen-of-python">PEP 20</a>.</li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<h2 class="title text-center"><strong>Skills</strong></h2>
 					<div v-for="skill in self.skills">
-						<h4 class="tm-progress-label">{{ skill.name }} <small class="progress-percent-small">{{ skill.percent }}%</small></h4>
+						<h4 class="tm-progress-label">{{ skill.name }} <i class="progress-percent-small">{{ skill.percent }}%</i></h4>
 						<div class="progress tm-progress">
 							<div class="progress-bar progress-bar-danger" role="progressbar" :aria-valuenow="skill.percent" aria-valuemin="0" aria-valuemax="100" :style="'width:' + skill.percent + '%;'"></div>
 						</div>
@@ -176,14 +188,13 @@ https://templatemo.com/tm-464-ultra-profile
 	<section id="social" class="tm-social">
 		<div class="container">
 			<div class="row">
-					<div v-for="social in socials" class="col-md-3 col-sm-3 wow rotateInUpLeft" data-wow-delay="0.3s">
+					<div v-for="social in socials" class="col-md-3 col-sm-6 wow rotateInUpLeft" data-wow-delay="0.3s">
 						<div class="media" :class="social.class">
 							<a :href="social.link">
 								<div class="media-object pull-left">
 									<i class="fa" :class="social.icon"></i>
 								</div>
 								<div class="media-body">
-									<h4 class="media-heading tm-social-title">{{ social.intro }} me on</h4>
 									<h3>{{ social.class }}</h3>
 								</div>
 							</a>
