@@ -348,13 +348,14 @@ hr {
 }
 .facebook:hover,
 .telegram:hover,
-.twitter:hover,
-.pinterest:hover {
+.whatsapp:hover,
+.linkedin:hover {
   background: #202020;
 }
-.facebook, .telegram { background: #3b5998; }
-.twitter { background: #55acee; }
-.pinterest { background: #cc2127; }
+.facebook{ background: #3b5998; }
+.linkedin { background: #0e76a8; }
+.telegram { background: #0088cc; }
+.whatsapp { background: #25D366; }
 .media {
   padding: 80px 40px 80px 40px;
   -webkit-transition: all 0.6s ease-in;

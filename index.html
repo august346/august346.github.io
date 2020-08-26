@@ -7,7 +7,7 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<!-- SITE TITLE -->
-	<title>Ultra Profile HTML5 Template</title>
+	<title>Ivanov Ilya portfolio</title>
 
 	<!-- STYLESHEETS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -85,7 +85,7 @@ https://templatemo.com/tm-464-ultra-profile
 						<i class="fa" :class="work.icon"></i>
 						<h3 class="text-uppercase tm-work-h3">{{ work.name }}</h3>
 						<hr>
-						<p>{{ work.desc }}</p>
+						<p class="left" v-html="work.desc"></p>
 					</div>
 				</div>
 			</div>
@@ -162,10 +162,10 @@ https://templatemo.com/tm-464-ultra-profile
 				<div class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-7">
 					<div class="title">
 						<h2>This is <strong>me</strong></h2>
-						<h1 class="tm-red-text">Creative <strong>Director</strong></h1>
+						<h1 class="tm-red-text">Software <strong>engineer</strong></h1>
 					</div>
-					<p>This is free Bootstrap v3.3.4 mobile friendly layout from <a rel="nofollow" href="https://templatemo.com">templatemo</a>. Feel free to use it for your website. Credit goes to <a rel="nofollow" href="https://pixabay.com">Pixabay</a> for photos used in this template. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+					<p>During four years I spent working on a field of information technology, I have always tried my best to break this cliche, so I have taken many different paths in my career - test automation engineer, java developer, android developer, project manager and salesman. In addition, during the years of professional rush I have seen examples when the startups never heard of before became successful businesses, and I myself also learned from mistakes.</p>
+					<p>It makes no difference whether you are a huge company representative or an entrepreneur, I will do my best to provide you with the most effective solution suitable for your case.</p>
 				</div>
 			</div>
 		</div>
@@ -178,13 +178,13 @@ https://templatemo.com/tm-464-ultra-profile
 			<div class="row">
 					<div v-for="social in socials" class="col-md-3 col-sm-3 wow rotateInUpLeft" data-wow-delay="0.3s">
 						<div class="media" :class="social.class">
-							<a href="#">
+							<a :href="social.link">
 								<div class="media-object pull-left">
 									<i class="fa" :class="social.icon"></i>
 								</div>
 								<div class="media-body">
 									<h4 class="media-heading tm-social-title">{{ social.intro }} me on</h4>
-									<h3>Social {{ social.class }}</h3>
+									<h3>{{ social.class }}</h3>
 								</div>
 							</a>
 						</div>
@@ -198,29 +198,6 @@ https://templatemo.com/tm-464-ultra-profile
 	<section id="contact" class="tm-contact">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<h2 class="title">Drop <strong>me a line</strong></h2>
-					<hr>
-				</div>
-				<div class="col-md-1 col-sm-1"></div>
-				<div class="col-md-10 col-sm-10">
-					<form action="#" method="post">
-						<div class="col-md-6 col-sm-6">
-							<input class="form-control" type="text" placeholder="Your Name">
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<input class="form-control" type="email" placeholder="Your Email">
-						</div>
-						<div class="col-md-12 col-sm-12">
-							<input class="form-control" type="text" placeholder="Your Subject">
-							<textarea class="form-control" placeholder="Your Message" rows="6"></textarea>
-						</div>
-						<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-							<input class="form-control" type="submit" value="SHOOT MESSAGE">
-						</div>
-					</form>
-				</div>
-				<div class="col-md-1 col-sm-1"></div>
 				<div class="col-md-12 col-sm-12">
 					<p>Copyright &copy; 2018 Ultra Profile
                     . design: <a rel="nofollow noopener" href="https://templatemo.com">template mo</a></p>
