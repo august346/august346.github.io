@@ -98,61 +98,61 @@ var app = new Vue({
         },
         {
           tags: ["microservices", "api"],
-          img: "images/portfolio-img2.jpg",
+          img: "images/portfolio-img2.png",
           title: "Data analyzer for analysts",
           desc: "Analyst tool for analyzing metadata of a large number of images."
         },
         {
           tags: ["microservices", "automation"],
-          img: "images/portfolio-img3.jpg",
+          img: "images/portfolio-img3.png",
           title: "Fake photo identifier",
           desc: "Neural network was developed and integrated as a microservice for detecting fake photos."
         },
         {
           tags: ["api", "automation"],
-          img: "images/portfolio-img4.jpg",
+          img: "images/portfolio-img4.png",
           title: "E2E machine testing system",
           desc: "Testing system for vending machines at the final stage of production."
         },
         {
           tags: ["api"],
-          img: "images/portfolio-img5.jpg",
+          img: "images/portfolio-img5.png",
           title: "Shopping cart",
           desc: "Shopping cart for retailer."
         },
         {
           tags: ["api"],
-          img: "images/portfolio-img5.jpg",
+          img: "images/portfolio-img6.jpg",
           title: "Image resizer",
           desc: "Jsut image resizer."
         },
         {
           tags: ["api", "bots"],
-          img: "images/portfolio-img6.jpg",
+          img: "images/portfolio-img7.jpg",
           title: "Website monitoring",
           desc: "Telegram bot for collecting various metrics from the customer's website."
         },
         {
           tags: ["bots", "automation"],
-          img: "images/portfolio-img7.jpg",
+          img: "images/portfolio-img8.jpg",
           title: "IoT controller",
           desc: "Smart home control telegram bot."
         },
         {
           tags: ["bots"],
-          img: "images/portfolio-img8.jpg",
+          img: "images/portfolio-img9.jpg",
           title: "Support tool",
           desc: "Customer support telegram bot."
         },
         {
           tags: ["bots", "automation"],
-          img: "images/portfolio-img1.jpg",
+          img: "images/portfolio-img10.png",
           title: "Discounts monitoring",
           desc: "Monitoring of discounts on games."
         },
         {
           tags: ["other"],
-          img: "images/portfolio-img1.jpg",
+          img: "images/portfolio-img11.jpg",
           title: "Parsers",
           desc: "About 20 different parsers."
         }
