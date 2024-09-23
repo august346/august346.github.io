@@ -28,7 +28,7 @@ var app = new Vue({
       },
     ],
     self: {
-      name: "Ilya Ivanov",
+      name: "Ilia Ivanov",
       position: "software engineer",
       description:"Quite often we hear people saying \"Nobody is perfect\", which is absolutely correct.<br/>But it is also true that nobody can stop you from making every effort to <strong>break this stereotype</strong>.",
       infoSet: [
